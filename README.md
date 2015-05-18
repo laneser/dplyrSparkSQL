@@ -59,6 +59,7 @@ db_create_table(src, "users", stored_as = "PARQUET", temporary = TRUE,
 
 The dplyr obtains the tbl object via
 
+
 ```r
 people <- tbl(src, "people")
 users <- tbl(src, "users")
